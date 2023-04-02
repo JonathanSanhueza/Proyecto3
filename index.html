@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 3</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
-</head>
-<body>
-    <header> HOLA</header>
-    <main>
-        <button id="boton_bitcoin">Bitcoin</button>
-        <button id="boton_euro">Euro</button>
-        <button id="boton_utm">UTM</button>
-        <button id="boton_uf">Unidad de Fomento</button>
-    </main>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto 3</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+    </head>
+    <body>
+        <header>Gráficos de Valores
+        <div class="header-buttons">
+            <button id="boton_bitcoin" class="header-button">Bitcoin</button>
+            <button id="boton_euro" class="header-button">Euro</button>
+            <button id="boton_utm" class="header-button">UTM</button>
+            <button id="boton_uf" class="header-button">Unidad de Fomento</button>
+        </div>
+        </header>
+        <div class="grafico">
+            <canvas id="Grafico"></canvas>
+            <canvas id="Grafico_uf" style="display: none;"></canvas>
+            <canvas id="Grafico_euro" style="display: none;"></canvas>
+            <canvas id="Grafico_utm" style="display: none;"></canvas>
+        </div>
 
-    <div>
-        <canvas id="Grafico"></canvas>
-        <canvas id="Grafico_uf" style="display: none;"></canvas>
-        <canvas id="Grafico_euro" style="display: none;"></canvas>
-        <canvas id="Grafico_utm" style="display: none;"></canvas>
-    </div>
+        <script src="/js/script.js" type="module"></script>
 
-    <script src="/js/script.js" type="module"></script>
-
-</body>
+    </body>
+    <footer>
+        &copy; 2023 PROYECTO 03, UDD. All rights reserved.
+    </footer>
 </html>

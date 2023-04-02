@@ -1,0 +1,37 @@
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.header-button:hover {
+    background-color: #3e8e41;
+}
+.grafico{
+    padding: 60px 180px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+body{
+    margin: 0px;
+}
